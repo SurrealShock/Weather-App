@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Gce-ns-CdS">
+            <objects>
+                <viewController id="MkL-JQ-JYt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wyu-22-ySZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cloud_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="9Z7-FB-4iS">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="H8O-LJ-pLS" firstAttribute="trailing" secondItem="9Z7-FB-4iS" secondAttribute="trailing" id="53U-If-z3p"/>
+                            <constraint firstItem="9Z7-FB-4iS" firstAttribute="leading" secondItem="H8O-LJ-pLS" secondAttribute="leading" id="7C3-Wb-vZR"/>
+                            <constraint firstItem="9Z7-FB-4iS" firstAttribute="top" secondItem="H8O-LJ-pLS" secondAttribute="top" id="Jef-cG-zxc"/>
+                            <constraint firstItem="H8O-LJ-pLS" firstAttribute="bottom" secondItem="9Z7-FB-4iS" secondAttribute="bottom" id="fUK-EC-Lus"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="H8O-LJ-pLS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wnm-Ro-bhw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="111" y="67"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Cloud_Logo" width="1440" height="2560"/>
+    </resources>
+</document>
